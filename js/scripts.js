@@ -7,7 +7,8 @@ let top3 = 0;
 $(document).ready(() => {
   console.log('Ready!');
   $('.button-1-up').click(() => {
-    $('#image1').css("top", `${top1-1}`);
+    $('#image1').css("top", `${top1-1}px`);
+    top1--;
   });
   $('.button-1-down').click(() => {
     
